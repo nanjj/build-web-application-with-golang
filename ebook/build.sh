@@ -2,7 +2,7 @@
 
 SED='sed'
 
-if [ `uname -s` == 'Darwin' ] ; then
+if [ `uname -s` = 'Darwin' ] ; then
   SED='gsed'
 fi
 
